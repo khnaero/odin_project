@@ -1,0 +1,11 @@
+<!DOCTYPE html> <!-- document type declaration -->
+<html>
+  <head>
+    <title>A Simple Webpage</title>
+  </head>
+
+  <body>
+    <p><strong>This</strong> is a <em>webpage</em></p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="Picture of a bear"></a>
+  </body>
+</html>
