@@ -1,0 +1,103 @@
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.logo {
+  /*position: absolute;*/
+  padding-top: 200px;
+  text-align: -webkit-center;
+}
+
+.searchbar {
+  text-align: -webkit-center;
+  padding-top: 20px;
+}
+
+input {
+  width: 600px;
+  padding: 12px 16px;
+  border-radius: 2px;
+  border: 0.5px solid #d9d9d9;
+  margin: 2px;
+  background-image: url("https://f3mshep.github.io/google-clone/voice.png");
+  background-position-x: 96%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 13px;
+  box-shadow: 0px 1px 2px 1px #888888;
+}
+
+.buttons {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.btns{
+  font-family: Arial;
+  font-size: 13px;
+  padding: 11px 17px;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #666666;
+  border-radius: 2px;
+}
+
+#signin {
+  background-color: #4583ed;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  float: right;
+}
+
+.navbar li{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial;
+  font-size: small;
+  float: left;
+  color: #666666;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  font-size: small;
+  font-family: Arial;
+  background-color: #f5f5f5;
+  
+  line-height: 40px;
+  border-top: 0.5px solid #d9d9d9;
+  
+}
+
+.left {
+  float: left;
+  margin: 0 0 0 -30px;
+}
+
+.right {
+  padding: 0 30px;
+  float: right;
+  margin: 0 30px 0 0;
+}
+
+li {
+  display: inline;
+  padding-left: 10px;
+}
