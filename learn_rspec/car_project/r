@@ -1,0 +1,20 @@
+[31mF[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) Car attributes allows reading and writing for :make
+     [31mFailure/Error: [0m[32mexpect[0m(car.make).to eq([31m[1;31m'[0m[31mTes[1;31m'[0m[31m[0m)[0m
+     [31m[0m
+     [31m  expected: "Tes"[0m
+     [31m       got: "Test"[0m
+     [31m[0m
+     [31m  (compared using ==)[0m
+     [36m# ./spec/car_spec.rb:10:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.02913 seconds (files took 0.15894 seconds to load)
+[31m7 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/car_spec.rb:7[0m [36m# Car attributes allows reading and writing for :make[0m
+
